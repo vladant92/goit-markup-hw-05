@@ -46,7 +46,7 @@
         </div>
         <div class="banner">
             <h1>EFFECTIVE SOLUTIONS FOR<br> YOUR BUSINESS</h1>
-            <button class="main-btn" type="button">Request our service</button>
+            <button data-modal-open class="main-btn" type="button">Request our service</button>
         </div>
     </header>
     <main>
@@ -385,5 +385,12 @@
             </div>
         </div>
     </footer>
+    <!-- Modal window -->
+    <div class="modal is-hidden" data-modal>
+        <div class="modal-content">
+            <button class="close-btn" data-modal-close>&times;</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
